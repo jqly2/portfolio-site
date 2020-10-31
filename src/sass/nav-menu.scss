@@ -1,0 +1,19 @@
+.Nav {
+    height: 100vh; 
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-item{
+    border-color: black;
+    border-style: groove;
+    margin:1em;
+    padding:1em;
+    width: 10vw;
+    height: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

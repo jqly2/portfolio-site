@@ -1,0 +1,22 @@
+.slider-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    min-height: 100vh;
+}
+
+.silder-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.slider-item-div{
+    padding: 2em;
+    P {
+        font-size: 14px;
+    }
+}

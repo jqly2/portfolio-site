@@ -1,0 +1,15 @@
+.home-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;   
+}
+
+.home_down{
+    position: absolute;
+    bottom: 0;
+}
+
