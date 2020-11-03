@@ -8,6 +8,7 @@
 }
 
 .silder-items{
+    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,3 +21,32 @@
         font-size: 14px;
     }
 }
+
+.slider-top{
+    background-color: whitesmoke;
+    width:100%;
+    min-height: 10vh;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+}
+
+.slider-bottom{
+    background-color: whitesmoke;
+    width:100%;
+    min-height: 10vh;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+}
+
+@media only screen and (max-width: 800px) {
+    .silder-items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+    }
+    .slider-container{
+        min-height: auto;
+    }
+  }

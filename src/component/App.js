@@ -8,8 +8,8 @@ class App extends React.Component {
         return(
             <div className="Nav">
                 <Home />
-                <About />
                 <Projects />
+                <About />
             </div>
         );
     }

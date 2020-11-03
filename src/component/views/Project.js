@@ -11,19 +11,29 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 245,
+    maxWidth: '30vw',
   },
   media: {
-    height: 120,
+    height: '30vh',
   },
+  "@media only screen and (max-width: 800px)": {
+    root: {
+      maxWidth: '50vw',
+    },
+    media: {
+      height: '50vh',
+    }
+  }
 });
 
 export default function Project() {
   const classes = useStyles();
   const cardStyle = {
-    height:'50%'
+    height:'100%'
   }
   return (
+  <>
+  <div className="slider-top"></div>
     <div className="slider-container">
       <Typography variant="h2" gutterBottom>
        Key Projects
@@ -105,6 +115,7 @@ export default function Project() {
         </div>
       </div>
     </div>
-    
+    <div className="slider-bottom"></div>
+  </>
   );
 }
